@@ -1,0 +1,36 @@
+.video-detail{
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px 20px;
+
+}
+
+.video-div{
+    overflow: hidden;
+    border-radius: 10px;
+    width: 72%;
+    height: calc(900px * (9/16));
+}
+.des{
+    font-size: 22px ;
+}
+.chanel{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.chanelName{
+    font-size: 16px;
+    align-self: self-start;
+}
+.follow{
+    margin-left: 15px;
+    background-color: black;
+    color: #fff;
+    font-weight: 500;
+    padding: 5px 40px;
+    font-size: 18px;
+    border-radius: 50px;
+}
